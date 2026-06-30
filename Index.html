@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mama's Food</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <h1>Mama's Food</h1>
+    </div>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/923001234567"
+       class="whatsapp-btn"
+       target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+            <h2>Mama's Food</h2>
+        </div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#foods">Foods</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <a href="menu.html" class="menu-btn">
+                    Menu
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+
+        <div class="hero-left">
+          <h1>
+            .
+            .
+            
+          </h1>
+
+            <h1>
+                Delicious Food <br>
+                Delivered Fast
+            </h1>
+
+            <p>
+                Taste the love in every bite.
+                Fresh burgers, pizzas, fries,
+                nuggets and drinks.
+            </p>
+
+            <a href="menu.html" class="main-btn">
+                Check Our Menu
+            </a>
+
+        </div>
+
+        <div class="hero-right">
+
+            <!-- ThreeJS Container -->
+            <div id="three-container"></div>
+
+            <!-- Rotating Platter -->
+            <img
+                src="images/platter.png"
+                class="platter"
+                alt="Platter">
+
+        </div>
+
+    </section>
+
+    <!-- Featured Foods -->
+    <section id="foods">
+
+        <h2 data-aos="fade-up">
+            Featured Foods
+        </h2>
+
+        <div class="food-container">
+
+            <!-- Card 1 -->
+            <div class="food-card"
+                 data-aos="fade-right">
+
+                <img src="images/burger.jpg">
+
+                <div class="food-info">
+                    <h3>Zinger Burger</h3>
+
+                    <p>
+                        Crispy chicken burger with
+                        fresh vegetables and cheese.
+                    </p>
+
+                    <span>Rs.699</span>
+                </div>
+
+            </div>
+
+            <!-- Card 2 -->
+            <div class="food-card"
+                 data-aos="fade-left">
+
+                <img src="images/pizza.jpg">
+
+                <div class="food-info">
+                    <h3>Chicken Pizza</h3>
+
+                    <p>
+                        Loaded with cheese and
+                        premium toppings.
+                    </p>
+
+                    <span>Rs.1499</span>
+                </div>
+
+            </div>
+
+            <!-- Card 3 -->
+            <div class="food-card"
+                 data-aos="fade-right">
+
+                <img src="images/fries.jpg">
+
+                <div class="food-info">
+                    <h3>French Fries</h3>
+
+                    <p>
+                        Crispy golden fries with
+                        signature seasoning.
+                    </p>
+
+                    <span>Rs.399</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section id="about">
+
+        <div class="about-content"
+             data-aos="zoom-in">
+
+            <h2>About Us</h2>
+
+            <p>
+                Mama's Food is dedicated to
+                providing fresh and delicious
+                meals prepared with premium
+                ingredients and served with care.
+
+                Our mission is to bring quality
+                food directly to your doorstep.
+            </p>
+
+            <div class="stats">
+
+                <div class="stat">
+                    <h3>5000+</h3>
+                    <p>Orders</p>
+                </div>
+
+                <div class="stat">
+                    <h3>1500+</h3>
+                    <p>Customers</p>
+                </div>
+
+                <div class="stat">
+                    <h3>4.9★</h3>
+                    <p>Rating</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <h2 data-aos="fade-up">
+            Contact & Delivery
+        </h2>
+
+        <div class="contact-container">
+
+            <div class="contact-box"
+                 data-aos="fade-right">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <h3>Phone</h3>
+
+                <p>+92 300 1234567</p>
+
+            </div>
+
+            <div class="contact-box"
+                 data-aos="zoom-in">
+
+                <i class="fab fa-whatsapp"></i>
+
+                <h3>WhatsApp</h3>
+
+                <a href="https://wa.me/923001234567">
+                    Chat Now
+                </a>
+
+            </div>
+
+            <div class="contact-box"
+                 data-aos="fade-left">
+
+                <i class="fa-solid fa-bag-shopping"></i>
+
+                <h3>Foodpanda</h3>
+
+                <a href="#">
+                    Visit Store
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>Mama's Food</h2>
+
+        <div class="socials">
+
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-facebook"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-tiktok"></i>
+            </a>
+
+        </div>
+
+        <p>
+            © 2026 Mama's Food.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <!-- ThreeJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
